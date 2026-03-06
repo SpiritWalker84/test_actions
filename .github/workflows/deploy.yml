@@ -63,4 +63,4 @@ jobs:
              docker pull ghcr.io/spiritwalker84/test_actions:latest && \
              docker stop vpe04 2>/dev/null || true && \
              docker rm vpe04 2>/dev/null || true && \
-             docker run -d --name vpe04 -p 8000:8000 --restart unless-stopped ghcr.io/spiritwalker84/test_actions:latest'
+             docker run -d --name vpe04 -p 8001:8001 --restart unless-stopped ghcr.io/spiritwalker84/test_actions:latest'

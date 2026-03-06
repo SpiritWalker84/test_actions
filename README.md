@@ -14,8 +14,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Сервер: http://127.0.0.1:8000  
-Документация: http://127.0.0.1:8000/docs
+Сервер: http://127.0.0.1:8001  
+Документация: http://127.0.0.1:8001/docs
 
 ## Эндпоинты
 
